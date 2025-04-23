@@ -18,3 +18,16 @@
   --color-purple-500: #8284fa;
   --color-purple-600: #5e60ce;
 }
+
+@layer base {
+  :focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-purple-600);
+  }
+
+  body {
+    background-color: var(--color-gray-600);
+    font-family: 'Inter', sans-serif;
+    color: var(--color-gray-100);
+  }
+}
